@@ -70,3 +70,27 @@ section#menu a{
     background-color: yellow;
     position:relative;
 }
+/* BONUS */
+a[href*="#"]:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
+    
+    
+    }
+
+.container:hover img {
+    border:50px solid black;
+    transform: rotate(0.2turn) scaleX(20);
+    
+}
+
+section:hover h1 {
+    transform: rotate(0.2turn) scaleY(40);
+}
+
+
+
+
+
+
+
